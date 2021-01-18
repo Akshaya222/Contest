@@ -1,0 +1,54 @@
+@import url(http://db.onlinewebfonts.com/c/0007c768c0c6149485a44a0409d9433c?family=GalanoGrotesque-Regular);
+@import url(http://db.onlinewebfonts.com/c/463e96684a261fe795b31a68de0aa0f4?family=GalanoGrotesque-Bold);
+
+
+@font-face {font-family: "GalanoGrotesque-Regular"; 
+	src: url("//db.onlinewebfonts.com/t/0007c768c0c6149485a44a0409d9433c.ttf") format("truetype");
+	}
+
+@font-face {font-family: "GalanoGrotesque-Bold"; 
+   src:  url("//db.onlinewebfonts.com/t/463e96684a261fe795b31a68de0aa0f4.ttf") format("truetype")
+}
+
+body {
+  margin: 0;
+  font-family:GalanoGrotesque-Bold,GalanoGrotesque-Regular,Montserrat,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y:scroll !important;
+  height:100vh;
+} 
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Card Animation */
+.cardAnimate{
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	 backface-visibility: hidden;
+	 perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}

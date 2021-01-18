@@ -1,0 +1,43 @@
+.contestRegistration {
+    text-align: center;
+}
+
+.contestRegistration-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+.contestRegistration p {
+    /* margin-block-start: 0em !important; */
+    /* margin-block-end: 0em !important; */
+    margin-bottom: 5px !important ;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .contestRegistration-logo {
+        animation: contestRegistration-logo-spin infinite 20s linear;
+    }
+}
+
+.contestRegistration-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.contestRegistration-link {
+    color: #61dafb;
+}
+
+@keyframes contestRegistration-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

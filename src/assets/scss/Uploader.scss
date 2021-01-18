@@ -1,0 +1,15 @@
+// .uploadBorderBottom{
+//     background-image: linear-gradient(to right, #999 75%, rgba(255,255,255,0) 0%);
+//     background-position: bottom;
+//     background-size: 38px 2px;
+//     background-repeat: repeat-x;
+// }
+
+.uploadBorderBottom{
+      background:     linear-gradient(to right, #ccc 77%, rgba(255,255,255,0) 0%) top/30px 2px repeat-x, /* top */
+                                    linear-gradient(#ccc 77%, rgba(255,255,255,0) 0%) right/2px 30px repeat-y, /* right */
+                                    linear-gradient(to right, #ccc 77%, rgba(255,255,255,0) 0%) bottom/30px 2px repeat-x, /* bottom */
+                                    linear-gradient(#ccc 77%, rgba(255,255,255,0) 0%) left/2px 30px repeat-y; /* left */
+
+      border-radius: 10px;
+}

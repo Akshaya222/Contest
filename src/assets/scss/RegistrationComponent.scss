@@ -1,0 +1,50 @@
+// .registrationForm::after {
+//       content: '';
+//       position: absolute;
+//       left: 70%;
+//       bottom: 10%;
+//       height: 25%;
+//       border-left: 5px solid #f3c800;
+// }
+
+// .form:after {
+//       content: '';
+//       position: absolute;
+//       left: 76.3%;
+//       bottom: -2%;
+//       height: 25%;
+//       border-left: 5px solid #f3c800;
+//       transform: rotate(90deg);
+// }
+
+// .form::before {
+//       content: '';
+//       position: absolute;
+//       left: 88.8%;
+//       top: 7.3%;
+//       height: 25%;
+//       border-left: 5px solid #f3c800;
+//       transform: rotate(90deg);
+// }
+
+
+
+// .registrationForm::before {
+//       content: '';
+//       position: absolute;
+//       left: 95%;
+//       bottom: 55%;
+//       height: 25%;
+//       border-left: 5px solid #f3c800;
+// }
+
+.border{
+          background:     linear-gradient(to left, #f3c800, #f3c800 0%) 100% 0px/50% 5px no-repeat,
+           linear-gradient(#f3c800, #f3c800 0%) 0% 100%/5px 32% no-repeat,
+           linear-gradient(to right, #f3c800, #f3c800 0%) 0% 100%/50% 5px no-repeat,
+          linear-gradient(#f3c800, #f3c800 0%) 100% 0%/5px 32% no-repeat
+}
+
+body{
+      overflow: hidden;
+}

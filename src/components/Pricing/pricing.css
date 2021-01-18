@@ -1,0 +1,70 @@
+.Pricing{
+    text-align: center;
+}
+
+.Pricing-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+p {
+    /* margin-block-start: 0em !important; */
+    /* margin-block-end: 0em !important; */
+    margin-bottom: 5px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.Pricing-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Pricing-link {
+    color: #61dafb;
+}
+
+@keyframes Pricing-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.row {
+    display: flex;
+}
+.col-md-6 img {
+    width: 100%;
+}
+.text-muted {
+    font-size: small;
+    font-weight: 500;
+    /* background-color: rgb(236, 236, 236); */
+}
+.btn-dark {
+    background-color: #f2c700;
+    color: black;
+    cursor: pointer;
+}
+.btn-dark:hover {
+    background-color: #000000 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.row input {
+    outline: 0;
+    border: 1px solid black;
+    padding-left: 5%;
+}

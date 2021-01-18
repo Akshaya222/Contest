@@ -1,0 +1,20 @@
+.submission-main-box {
+    background-color: white;
+    width: 100%;
+    margin-left: 3rem;
+margin-top:-5rem;
+}
+.display-videos {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-bottom: 2%;
+}
+.display-videos img {
+    width: 150px;
+    margin-bottom:1rem;
+}
+figure {
+    margin: 0;
+}

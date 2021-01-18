@@ -1,0 +1,73 @@
+img {
+  width: 10%;
+  height: 10%;
+  margin-left: 1%;
+}
+.center {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f3c700;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bg {
+  background: lightyellow;
+  font-size: 19px;
+}
+@media (min-width: 544px) {
+  #bg {
+    font-size: 0.8rem;
+  } /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  #bg {
+    font-size: 1rem;
+  } /*1rem = 16px*/
+}
+
+#cp {
+  background-color: #f3c700;
+}
+#card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 85%;
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 3px solid rgb(255, 255, 255, 0.9);
+  border-radius: 25px;
+  height: 10rem;
+}
+
+#tableText {
+  margin: auto;
+  width: 90% !important;
+}
+
+h4 {
+  font-weight: 900;
+}
+th,
+td {
+  font-weight: 900;
+}
+.yellow {
+  background-color: #f3c700;
+}
+.table td,
+.table th {
+  border: none;
+}
+
+#x {
+  border: 3px solid gold;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
